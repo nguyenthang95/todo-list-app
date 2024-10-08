@@ -1,7 +1,7 @@
-import { Todo } from './../../models/Todo';
+import { Todo } from '../../models/Todo.model';
 import { TodosService } from './../../services/todos.service';
 import { Component, OnInit } from '@angular/core';
-import { User } from 'src/app/models/User';
+import { User } from 'src/app/models/User.model';
 
 
 @Component({

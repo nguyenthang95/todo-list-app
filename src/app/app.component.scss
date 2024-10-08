@@ -1,0 +1,30 @@
+.app {
+  display: flex;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  .sidebar {
+    width: 400px;
+    background: rgb(145, 145, 145);
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+
+    .header{
+        height: 70px;
+        background-color: rgb(27, 255, 6);
+    }
+
+    .content{
+        width: 100%;
+    }
+  }
+}

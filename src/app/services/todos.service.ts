@@ -1,7 +1,7 @@
-import { User } from './../models/User';
+import { User } from '../models/User.model';
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
-import { Todo } from '../models/Todo';
+import { Todo } from '../models/Todo.model';
 import { Observable } from 'rxjs';
 
 const httpOptions = {
